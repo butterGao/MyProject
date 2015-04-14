@@ -1,0 +1,5 @@
+keystore"file:Alieas.keystore","JKS";
+grantsignedBy "mbq"
+{
+	permission java.security.AllPermission;
+}; 

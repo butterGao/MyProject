@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin-bottom: 0px;
+	text-align:center;
+	background-color:#88B9BD;
+	font: 12px/1.5, 宋体, Verdana, Geneva, sans-serif;
+}
+#center{
+	margin: -8px auto 0px auto;
+	height:auto;
+	width:900px;
+	background: #fff;
+}
+
+.header{
+	width:100%;
+	height:80px;
+	background-image:url(../header.png);	
+}
+
+.d1{  
+	width: 845px; 
+	height: 60px;  
+	margin: 10px 5px 0px 0px;
+	float: right; 
+}
+
+.d11{
+	font-family: 微软雅黑;
+	width: 56px;
+	height: 40px;
+	font-size:12px;
+	padding: 10px 5px 0px 5px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+
+.img1{
+	width: 5px;
+	height: 40px;
+	padding: 20px 0px 0px 5px;
+	float: left;
+}
+
+.d2{
+	height: 24px;
+	width: 150px;
+	float: left;
+	margin: 75px 0px 0px 70px;
+	border: 1px solid #A095BD;
+}
+
+.head1{
+	background-image: url(../images/hard5.jpg);
+	background-repeat: no-repeat;
+	height:150px;
+	width:900px;
+}
+
+.middle1{
+	width: auto;
+	height: auto;
+	margin: 0px 40px 0px 40px;
+	background-color:#FFF;
+	cursor: pointer;
+}
+
+.display_s1{
+	width: 20%;
+	height:100%;
+	padding: 5px 5px 5px 5px;
+	float: left;
+	font-size: 12px;
+	font-family: 宋体;
+	text-align: left;
+	letter-spacing:normal;
+	text-indent: 2em;
+	line-height: 150%;
+}
+
+.display_s2{
+	width: 25%;
+	height:100%;
+	padding: 5px 20px 5px 5px;
+	float: left;
+	font-size: 12px;
+	font-family: 宋体;
+	text-align: left;
+	letter-spacing:normal;
+	text-indent: 2em;
+	line-height: 150%;
+}
+
+.middle2{
+	width: auto;
+	height: 320px;
+	margin: 0px 40px 0px 10px;
+	background-color:#FFF;
+	font-family: 宋体; 
+	font-size: 12px;
+}
+
+A:link {
+ color: #2480c1;
+ TEXT-DECORATION: none
+}
+A:visited {
+ COLOR: #2480c1;
+ TEXT-DECORATION: none
+}
+A:hover {
+ COLOR: #2480c1;
+ text-decoration: none;
+}
+A:active {
+ COLOR: #2480c1;  
+ text-decoration: none;
+}

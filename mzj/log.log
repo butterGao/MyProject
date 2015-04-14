@@ -1,0 +1,493 @@
+
+2014-09-22 13:25:18
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:512)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:373)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:30)
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:506)
+	... 6 more
+
+2014-09-22 13:26:03
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:30)
+
+2014-09-22 13:26:03
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:30)
+
+2014-09-22 13:26:21
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:30)
+
+2014-09-22 13:26:21
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:30)
+
+2014-09-22 13:27:35
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:30)
+
+2014-09-22 13:27:35
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:30)
+
+2014-09-22 13:31:37
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.TableInfoBuilder.buildTableInfo(TableInfoBuilder.java:36)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:106)
+	at com.test.test.main(test.java:31)
+
+2014-09-22 13:31:37
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.TableInfoBuilder.buildTableInfo(TableInfoBuilder.java:36)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:106)
+	at com.test.test.main(test.java:31)
+
+2014-09-22 13:35:24
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:34)
+
+2014-09-22 13:35:24
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:34)
+
+2014-09-22 13:35:51
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+127.0.0.1:1521:ORCL
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:34)
+
+2014-09-22 13:35:51
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+127.0.0.1:1521:ORCL
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.test.test.main(test.java:34)
+
+2014-09-29 13:45:12
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: Invalid number format for port number
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.test.test.main(test.java:53)
+
+2014-09-29 13:45:12
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: Invalid number format for port number
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.test.test.main(test.java:53)
+
+2014-11-17 19:18:06
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.sitemap.listener.AutoUpdateData.update(AutoUpdateData.java:62)
+	at com.sitemap.listener.AutoUpdateData.main(AutoUpdateData.java:50)
+
+2014-11-17 19:18:06
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.sitemap.listener.AutoUpdateData.update(AutoUpdateData.java:62)
+	at com.sitemap.listener.AutoUpdateData.main(AutoUpdateData.java:50)
+
+2014-11-17 19:19:17
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.sitemap.listener.AutoUpdateData.update(AutoUpdateData.java:65)
+	at com.sitemap.listener.AutoUpdateData.main(AutoUpdateData.java:53)
+
+2014-11-17 19:19:17
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.sitemap.listener.AutoUpdateData.update(AutoUpdateData.java:65)
+	at com.sitemap.listener.AutoUpdateData.main(AutoUpdateData.java:53)
+
+2014-11-17 19:19:52
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+127.0.0.1:1521:orcl
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.sitemap.listener.AutoUpdateData.update(AutoUpdateData.java:65)
+	at com.sitemap.listener.AutoUpdateData.main(AutoUpdateData.java:53)
+
+2014-11-17 19:19:52
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+127.0.0.1:1521:orcl
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.sitemap.listener.AutoUpdateData.update(AutoUpdateData.java:65)
+	at com.sitemap.listener.AutoUpdateData.main(AutoUpdateData.java:53)
+
+2014-12-09 10:46:44
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.sitemap.listener.AutoUpdateData.update(AutoUpdateData.java:64)
+	at com.sitemap.listener.AutoUpdateData.main(AutoUpdateData.java:52)
+
+2014-12-09 10:46:44
+[ERROR]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+java.sql.SQLException: Io 异常: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:439)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1201)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1257)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:405)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:581)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:78)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:385)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:399)
+	at com.sitemap.listener.AutoUpdateData.update(AutoUpdateData.java:64)
+	at com.sitemap.listener.AutoUpdateData.main(AutoUpdateData.java:52)
